@@ -1,0 +1,14 @@
+[2026-01-22 14:05:08,644] 22 - INFO - Entered the data ingestion method or component
+[2026-01-22 14:05:08,648] 25 - INFO - Read the dataset as DataFrame
+[2026-01-22 14:05:08,654] 30 - INFO - Train test split initiated
+[2026-01-22 14:05:08,662] 34 - INFO - Date ingestion Completed
+[2026-01-22 14:05:08,692] 66 - INFO - Reading of train and test data completed
+[2026-01-22 14:05:08,692] 67 - INFO - Obtaining preprocessing object
+[2026-01-22 14:05:08,692] 50 - INFO - Categorical Features: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2026-01-22 14:05:08,718] 51 - INFO - Numerical Features: ['reading_score', 'writing_score']
+[2026-01-22 14:05:08,719] 79 - INFO - Applying preprocessing on training and test data
+[2026-01-22 14:05:08,738] 90 - INFO - Saving the preprocessor
+[2026-01-22 14:05:08,742] 29 - INFO - Split train and test input data
+[2026-01-22 14:05:12,978] 99 - INFO - best model is RandomForestRegressor(n_estimators=128)
+[2026-01-22 14:05:13,037] 107 - INFO - The probability r2 score is 0.8535107304882378
+[2026-01-22 14:05:13,037] 108 - INFO - Final model saved successfully
